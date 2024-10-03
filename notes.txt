@@ -1,0 +1,16 @@
+#To create react app
+npm create vite@latest
+
+#for tailwind
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+#do some neccesary changes in tailwind.config.js &  index.css
+
+#To run
+npm run dev
+
+# GO to daisy Ui == you ii get ready made Ui
+npm i -D daisyui@latest
+#Change tailwind.config file =   plugins: [require("daisyui")],
+ 
